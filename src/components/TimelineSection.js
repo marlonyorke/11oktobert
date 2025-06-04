@@ -155,16 +155,16 @@ const Title = styled.h2`
 const EventTextContainer = styled.div`
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  max-width: 800px;
-  text-align: center;
+  left: 5%;
+  transform: translate(0, -50%);
+  width: 45%;
+  max-width: 600px;
+  text-align: left;
   z-index: 20; /* Higher z-index to ensure visibility */
   pointer-events: none; /* Allow clicking through */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 `;
 
@@ -180,10 +180,10 @@ const EventText = styled.p`
   border-radius: 15px;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  text-align: center;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 100%;
+  text-align: left;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Stronger shadow */
   pointer-events: none; /* Allow clicking through */
   border: 2px solid rgba(191, 169, 128, 0.3); /* Subtle border */
